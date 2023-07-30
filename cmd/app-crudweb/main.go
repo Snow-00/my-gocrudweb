@@ -1,6 +1,7 @@
 package main
 
 import (
+  "github.com/Snow-00/my-gocrudweb/pkg/config"
   "net/http"
   "log"
 )
