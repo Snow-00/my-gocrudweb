@@ -8,7 +8,7 @@ import (
 
 var DB *sql.DB
 func ConnectDB() {
-  db, err := sql.Open("mysql", "user:password@/dbname")
+  db, err := sql.Open("mysql", "shadow00:@/go_products")
   if err != nil {
     panic(err)
   }
