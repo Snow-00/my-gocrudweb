@@ -15,12 +15,7 @@ func GetAll() []entities.Category{
 	var categories []entities.Category
 	for rows.Next() {
 		var category entities.Category
-		 err := rows.Scan(
-			&category.Id, 
-			&category.Name,
-			&category.CreatedAt,
-			&category.UpdatedAt,
-		)
+		 err := rows.Scan(&category.Id, &category.Name, &category.CreatedAt, &category.UpdatedAt)
 		if err != nil {
 			panic(err)
 		}
