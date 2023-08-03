@@ -29,29 +29,15 @@
     <!-- End of Navbar -->
 
     <div class="container mt-3">
-      <h2>List Categories</h2>
+      <h2>Add Categories</h2>
       <hr>
-      <a href="/categories/add" class="btn btn-primary">Add Category</a>
-      <table class="table table-bordered mt-2t text-center">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            <!-- looping berdasarkan key categories -->
-            {{ range .categories }}
-            <tr>
-                <td>{{ .Name }}</td>
-                <td>
-                    <a href="/categories/edit?id={{ .Id }}" class="btn btn-warning text-light">Edit</a>
-                    <a href="/categories/delete?id={{ .Id }}" class="btn btn-danger text-light" onclick="return confirm('Are u sure want to delete this category?')">Delete</a>
-                </td>
-            </tr>
-            {{ end }}
-        </tbody>
-      </table>
+
+      <form action="/categories/add" method="POST">
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="form-control" name="name" autocomplete="off">
+          </div>          
+      </form>
     </div>
   </body>
 </html>
