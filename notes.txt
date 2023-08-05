@@ -1,1 +1,8 @@
+mysql syntax to insert data to mysql
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
 di url ? adalah penanda add param
+
+how to use mysql localhost in google colab
+https://stackoverflow.com/questions/62065617/how-to-read-write-local-mysql-server-8-from-google-colab-with-pyspark

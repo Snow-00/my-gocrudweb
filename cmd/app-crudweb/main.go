@@ -20,6 +20,6 @@ func main() {
   http.HandleFunc("/categories/edit", cateogrycontroller.Edit)
   http.HandleFunc("/categories/delete", cateogrycontroller.Delete)
 
-  log.Println("Server running on port: 8080")
-  http.ListenAndServe(":8080", nil)
+  log.Println("Server running on port: 8000")
+  http.ListenAndServe(":8000", nil)
 }
