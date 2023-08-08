@@ -35,3 +35,5 @@ join tables in sql
 https://www.w3schools.com/sql/sql_join.asp
 
 ParseFiles("path") -> posisinya ngeliat dari package nya (dir nya), bkn posisi file nya
+
+class mb-3 means the spacing of each row
