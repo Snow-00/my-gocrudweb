@@ -37,3 +37,6 @@ https://www.w3schools.com/sql/sql_join.asp
 ParseFiles("path") -> posisinya ngeliat dari package nya (dir nya), bkn posisi file nya
 
 class mb-3 means the spacing of each row
+
+buat ubah string jd int bs pake strconv.ParseUint() cuman ribet, hrs tau base dan bitsize
+https://stackoverflow.com/questions/35154875/convert-string-to-uint-in-go-lang
