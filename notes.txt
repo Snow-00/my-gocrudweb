@@ -1,3 +1,11 @@
+to start mysql db service use
+sudo service mysql start
+https://sebhastian.com/mysql-error-2002/
+
+to change password / execute something from terminal to mysql db use
+mysql -u root -e "SQL command;"
+https://stackoverflow.com/questions/8055694/how-to-execute-a-mysql-command-from-a-shell-script
+
 to create database in mysql
 CREATE DATABASE customer_info;
 https://www.pluralsight.com/cloud-guru/labs/aws/creating-a-database-and-table-in-mysql?utm_source=google&utm_medium=paid-search&utm_campaign=cloud-transformation&utm_term=ssi-global-acg-aws-dsa&utm_content=free-trial&gclid=Cj0KCQjw2qKmBhCfARIsAFy8buLr5nBdybBJZ72wRobmMG5AmFP4eyGkdM90s886Uysic5rKggr4zAoaAtYjEALw_wcB
