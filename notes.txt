@@ -3,7 +3,7 @@ sudo service mysql start
 https://sebhastian.com/mysql-error-2002/
 
 to change password / execute something from terminal to mysql db use
-mysql -u root -e "SQL command;"
+mysql -u root -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '<password>';"
 https://stackoverflow.com/questions/8055694/how-to-execute-a-mysql-command-from-a-shell-script
 
 to create database in mysql
